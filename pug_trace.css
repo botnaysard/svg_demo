@@ -1,0 +1,31 @@
+body {
+	background-color: #04282f ;
+}
+
+.logo-outline, .full-face {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 520px;
+	height: 640px;
+	overflow: hidden;
+	margin: 0 auto;
+
+}
+
+.pug-outline {
+	stroke-dasharray: 12500;
+	stroke-dashoffset: 12500;
+	animation: dash 2.5s linear forwards;
+}
+
+.full-face {
+	display: none;
+}
+
+@keyframes dash {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
