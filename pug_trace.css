@@ -1,10 +1,32 @@
+/* STYLES */
+
 body {
 	background-color: #04282f ;
 }
 
+.top-title, .sub-title {
+	width: 100%;
+	font-size: 4em;	
+	text-align: center;
+	color: #fefefe;
+	display: inline-block;
+	font-family: 'Pacifico', cursive;
+	display: none;
+}
+
+.top-title {
+	margin-top: 100px;
+}
+
+.sub-title {
+	margin-top: 650px;
+}
+
+/* SVG ANIMATE */
+
 .logo-outline, .full-face {
 	position: absolute;
-	top: 0;
+	top: 220px;
 	left: 0;
 	right: 0;
 	width: 520px;
@@ -17,7 +39,7 @@ body {
 .pug-outline {
 	stroke-dasharray: 12500;
 	stroke-dashoffset: 12500;
-	animation: dash 2.5s linear forwards;
+	animation: dash 1.3s linear forwards;
 }
 
 .full-face {
