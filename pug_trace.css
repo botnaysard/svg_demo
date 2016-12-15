@@ -35,10 +35,23 @@ body {
 	margin: 0 auto;
 }
 
+
+.pug-outline, .muzzle-outline, .tophat {
+	animation: dash 1s linear forwards;	
+}
 .pug-outline {
 	stroke-dasharray: 12500;
 	stroke-dashoffset: 12500;
-	animation: dash 1.3s linear forwards;
+}
+
+.muzzle-outline {
+	stroke-dasharray: 4050;
+	stroke-dashoffset: 4050;
+}
+
+.tophat {
+	stroke-dasharray: 7000;
+	stroke-dashoffset: 7000;
 }
 
 .full-face {
